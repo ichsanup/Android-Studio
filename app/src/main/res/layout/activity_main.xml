@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/and"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="235dp"
+        android:text="SELAMAT DATANG"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/masuk" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:background="@drawable/tentang"
+        android:layout_marginLeft="190dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/button2"/>
+
+</RelativeLayout>

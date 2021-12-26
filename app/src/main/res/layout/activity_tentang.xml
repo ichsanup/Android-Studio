@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tentangu"
+    tools:context=".tentang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_centerInParent="true"
+        android:freezesText="true"
+        android:textStyle="italic"
+        android:textColorLink="@color/black"
+        android:text="Merupakan aplikasi belajar sederhana mengenai pembelajaran dalam mengenal Angka, Hewan, Huruf. Serta didedikasikan kepada anak-anak"
+        android:textColor="@color/black"
+        android:textSize="35dp"/>
+
+
+
+
+</RelativeLayout>
